@@ -40,7 +40,7 @@ const Cabecalho = () => {
     <StyledHeader>
       <StyledLogo src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <a className="btn-secundario" href="https://google.com">
+        <StyledPrimaryButton className="btn-secundario" href="https://google.com">
           Ajuda
         </a>
         <a className="btn-primario" href="https://google.com">
