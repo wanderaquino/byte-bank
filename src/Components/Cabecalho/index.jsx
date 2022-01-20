@@ -42,10 +42,10 @@ const Cabecalho = () => {
       <div>
         <StyledPrimaryButton className="btn-secundario" href="https://google.com">
           Ajuda
-        </a>
-        <a className="btn-primario" href="https://google.com">
+        </StyledPrimaryButton>
+        <StyledSecondaryButton className="btn-primario" href="https://google.com">
           Sair
-        </a>
+        </StyledSecondaryButton>
       </div>
     </div>
   );
