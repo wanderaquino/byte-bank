@@ -47,7 +47,7 @@ const Cabecalho = () => {
           Sair
         </StyledSecondaryButton>
       </div>
-    </div>
+    </StyledHeader>
   );
 };
 
