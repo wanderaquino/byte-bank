@@ -37,8 +37,8 @@ const StyledSecondaryButton = styled(StyledButton)`
 
 const Cabecalho = () => {
   return (
-    <div className="cabecalho">
-      <img className="imagem-logo" src={bank_logo} alt="Logo Smart Bank" />
+    <StyledHeader>
+      <StyledLogo src={bank_logo} alt="Logo Smart Bank" />
       <div>
         <a className="btn-secundario" href="https://google.com">
           Ajuda
