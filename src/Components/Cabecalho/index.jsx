@@ -23,16 +23,8 @@ const StyledButton = styled.button`
   margin: 0 10px;
   font-weight: 600;
   border: 2px solid white;
-`
-
-const StyledPrimaryButton = styled(StyledButton)`
-  color: white;
-  background: transparent;
-`
-
-const StyledSecondaryButton = styled(StyledButton)`
-  background: white;
-  color: #41d3be;
+  color: ${(props) => props.primary ? "white" : "#41d3be"};
+  background: ${(props) => props.primary ? "transparent" : "white"};;
 `
 
 const Cabecalho = () => {
