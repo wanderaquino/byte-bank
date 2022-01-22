@@ -43,17 +43,19 @@
   align-items: center;
 } */
 
-.container {
+/* Movido para styled container*/
+/* .container {
   background-color: #f1f1f1;
   min-height: 90vh;
   padding: 0px 15vw;
 }
-
+/* Movido para styled conteudo*/
+/*
 .conteudo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
 /*Movido para styledLogo*/
 /* .imagem-logo {
