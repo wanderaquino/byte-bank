@@ -27,4 +27,4 @@ const ContainerWrapper = () => {
   );
 };
 
-export default Container;
+export default ContainerWrapper;
