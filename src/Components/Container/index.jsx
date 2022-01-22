@@ -18,12 +18,12 @@ const Conteudo = styled.section`
 
 const ContainerWrapper = () => {
   return (
-    <div className="container">
+    <Container>
       <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
+      <Conteudo >
         <Conta />
-      </section>
-    </div>
+      </Conteudo>
+    </Container>
   );
 };
 
