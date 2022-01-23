@@ -23,6 +23,11 @@ const Box = styled.div `
   padding: 20px;
   width: 48%;
 
+  @media (max-width: 800px) {
+      width: 95%;
+      margin: 5px;
+  }
+
 `
 
 const ContaButton = styled.button `
