@@ -68,9 +68,9 @@ const Conta = () => {
           <Icone src={dinheiro} alt="Ícone Saldo" />
         </span>
         {toggleState ? (
-          <div className="saldo">
-            <span className="detalhe">R$</span> 0,00{" "}
-          </div>
+          <Saldo>
+            <Detalhe >R$</Detalhe> 0,00{" "}
+          </Saldo>
         ) : null}
       </div>
 
