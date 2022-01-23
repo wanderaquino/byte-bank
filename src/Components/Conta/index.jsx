@@ -39,6 +39,19 @@ const ContaButton = styled.button `
   cursor: pointer;
 
 `
+
+const Saldo = styled.div` 
+  font-weight: 700;
+  font-size: 32px;
+`
+
+const Detalhe = styled.span`
+
+  color: #41d3be;
+  font-size: 24px;
+
+`
+
 const Conta = () => {
   const [toggleState, untoggle] = useState(true);
 
