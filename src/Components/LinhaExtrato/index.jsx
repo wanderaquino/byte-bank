@@ -39,17 +39,17 @@ export function LinhaExtrato ({type, from, value, date}) {
     return (
         <LinhaExtratoContainer>
             <InfoWrapperLinhaExtrato>
-                <IconeLinhaExtrato src={categorias.Restaurante} />
+                <IconeLinhaExtrato src={categorias[`${type}`]} />
             </InfoWrapperLinhaExtrato>
             <InfoWrapperLinhaExtrato>
                 <TipoLinhaExtrato>
-                    <strong>Alimentação</strong>
-                    <span>Restaurante Parmê</span>
-                    <span>R$ 150.00</span>
+                    <strong>{type}</strong>
+                    <span>{from}</span>
+                    <span>{value}</span>
                 </TipoLinhaExtrato>
             </InfoWrapperLinhaExtrato>
             <InfoWrapperLinhaExtrato>
-                <DataLinhaExtrato>11 JUN</DataLinhaExtrato>
+                <DataLinhaExtrato>{date}</DataLinhaExtrato>
             </InfoWrapperLinhaExtrato>
         </LinhaExtratoContainer>
     )
