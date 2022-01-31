@@ -23,7 +23,11 @@ export function Extrato () {
 
     return (
         <Box>
-
+            {
+                isWaiting ?
+                    <div>Carregando</div> :
+                updates.map(update => <LinhaExtrato key={update.id} type={update.type} from={update.from} value={update.value} date={update.date} />)
+            }
             <ContaButton>Ver Mais</ContaButton>
         </Box>
     )
