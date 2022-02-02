@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const lightBackground = '#f1f1f1';
+export const lightTextColor = 'grey';
+export const lightBoxInsideBackground = "white";
+
+export const darkBackground = '#363537';
+export const darkTextColor = 'white';
+export const darkBoxInsideBackground = "#5c5b5e";
+
 export const Icone = styled.img`
     height: 25px;
     width: 25px;
